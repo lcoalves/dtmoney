@@ -1,11 +1,11 @@
 <h1 align="center">
-  <img alt="Chapter II: dtmoney" title="Chapter II: dtmoney" src=".github/ignite.png" width="800px" />
+  <img alt="Ignite - Chapter II: dtmoney" title="Ignite - Chapter II: dtmoney" src=".github/ignite.png" width="800px" />
 </h1>
 
 <h3 align="center">
-  Chapter II: dtmoney
+  Ignite - Chapter II: dtmoney
   <br>
-  Aplicação para gereniar depósitos e reti
+  Aplicação criada durante o ignite no capítulo 2 para gerenciar depósitos e retiradas
 </h3>
 
 <!-- <p align="center">See in action: <a href="https://www.notion.so/Desafio-02-Componentizando-a-aplica-o-b9f0f025c95b437699d0c3115f55b0f1">click here</a></p> -->
