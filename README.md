@@ -1,46 +1,86 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="Desafio 02 Ignite Componentizando a aplicação" title="Desafio 02 Ignite Componentizando a aplicação" src=".github/ignite.png" width="800px" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Desafio 02 Ignite Rocketseat: Componentizando a aplicação.
+  <br>
+  Acima foi componentizado a aplicação Watch me.
+</h3>
 
-## Available Scripts
+<p align="center">Challenge: <a href="https://www.notion.so/Desafio-02-Componentizando-a-aplica-o-b9f0f025c95b437699d0c3115f55b0f1">click here</a></p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lcoalves/ignite-componentizando-aplicacao?color=%2304D361">
 
-### `yarn start`
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://github.com/lcoalves">
+    <img alt="Made by Lucas Alves" src="https://img.shields.io/badge/made%20by-Lucas%20Alves-%2304D361">
+  </a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <a href="https://github.com/lcoalves/ignite-componentizando-aplicacao/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/lcoalves/ignite-componentizando-aplicacao?style=social">
+  </a>
+</p>
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### `yarn build`
+### Prerequisites
+- [NodeJS](https://nodejs.org/en/) - Environment runtime
+- [Yarn](https://yarnpkg.com/getting-started/install) - Packager manager
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+What things you need to install the software and how to install them
+https
+```
+git clone https://github.com/lcoalves/ignite-componentizando-aplicacao.git
+```
+ssh
+```
+git clone git@github.com:lcoalves/ignite-componentizando-aplicacao.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A step by step series of examples that tell you how to get a development env running
 
-### `yarn eject`
+#### Databases
+First install dependencies
+```
+$> cd ignite-componentizando-aplicacao && yarn
+```
+Next open the code
+```
+$> code .
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Front-end
+Start mock-server service
+```
+$> yarn serve
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Front-end
+Start front-end service
+```
+$> yarn dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Built With
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* [React](https://reactjs.org/docs/getting-started.html) - A JavaScript library for building user interfaces
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* **Lucas Alves** - *IT Development Specialist* - [GitHub profile](https://github.com/lcoalves)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/lcoalves/ignite-componentizando-aplicacao/blob/master/LICENSE) file for details
+
+## Acknowledgments
+
+* React
+* Jest
