@@ -4,6 +4,7 @@ import Modal from 'react-modal';
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
 import { NewTransactionModal } from './components/NewTransactionModal';
+import { AppProvider } from './hooks';
 import { GlobalStyle } from "./styles/global";
 
 Modal.setAppElement('#root')
@@ -20,7 +21,7 @@ export function App() {
   }
 
   return (
-    <>
+    <AppProvider>
       <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
       <Dashboard />
 
@@ -30,6 +31,6 @@ export function App() {
       />
 
       <GlobalStyle />
-    </>
+    </AppProvider>
   );
 }
